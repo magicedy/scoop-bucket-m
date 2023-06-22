@@ -1,5 +1,5 @@
 {
-    "version": "3.11.4",
+    "version": "3.11.0",
     "description": "A programming language that lets you work quickly and integrate systems more effectively.",
     "homepage": "https://www.python.org/",
     "license": "Python-2.0",
@@ -98,13 +98,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.python.org/ftp/python/$version/python-$version-amd64.exe#/setup.exe"
+                "url": "https://repo.huaweicloud.com/python/$version/python-$version-amd64.exe#/setup.exe"
             },
             "32bit": {
-                "url": "https://www.python.org/ftp/python/$version/python-$version.exe#/setup.exe"
+                "url": "https://repo.huaweicloud.com/python/$version/python-$version.exe#/setup.exe"
             },
             "arm64": {
-                "url": "https://www.python.org/ftp/python/$version/python-$version-arm64.exe#/setup.exe"
+                "url": "https://repo.huaweicloud.com/python/$version/python-$version-arm64.exe#/setup.exe"
             }
         },
         "hash": {

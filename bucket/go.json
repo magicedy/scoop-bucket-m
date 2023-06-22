@@ -1,5 +1,5 @@
 {
-    "version": "1.20.5",
+    "version": "1.20.0",
     "description": "An open source programming language that makes it easy to build simple, reliable, and efficient software.",
     "homepage": "https://golang.org",
     "license": "BSD-3-Clause",
@@ -45,13 +45,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://dl.google.com/go/go$version.windows-amd64.zip"
+                "url": "https://mirror.nju.edu.cn/golang/go$version.windows-amd64.zip"
             },
             "32bit": {
-                "url": "https://dl.google.com/go/go$version.windows-386.zip"
+                "url": "https://mirror.nju.edu.cn/golang/go$version.windows-386.zip"
             },
             "arm64": {
-                "url": "https://dl.google.com/go/go$version.windows-arm64.zip"
+                "url": "https://mirror.nju.edu.cn/golang/go$version.windows-arm64.zip"
             }
         },
         "hash": {
