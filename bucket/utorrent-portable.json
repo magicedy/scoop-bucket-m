@@ -3,8 +3,8 @@
     "description": "Bit torrent client",
     "version": "3.5.5.45660",
     "license": "",
-    "url": "https://ayera.dl.sourceforge.net/project/portableapps/uTorrent%20Portable/uTorrentPortable_3.5.5.45660_online.paf.exe",
-    "hash": "md5:603bf29bb94a930a018f21f6db87a381",
+    "url": "https://download2.portableapps.com/portableapps/uTorrentPortable/uTorrentPortable_3.5.5.46348_online.paf.exe",
+    "hash": "md5:7492D59D06DF4DE65E1A9E1811C694D3",
     "bin": "uTorrentPortable/uTorrentPortable.exe",
     "shortcuts": [
       [
@@ -18,7 +18,7 @@
       "re": "Version\\s+([\\w\\.]*) for Win"
     },
     "autoupdate": {
-      "url": "https://ayera.dl.sourceforge.net/project/portableapps/uTorrent%20Portable/uTorrentPortable_$version_online.paf.exe",
+      "url": "https://download2.portableapps.com/portableapps/uTorrentPortable/uTorrentPortable_$version_online.paf.exe",
       "hash": {
         "url": "https://portableapps.com/apps/internet/utorrent_portable",
         "regex": "MD5 Hash: +[\\w]{32}"
