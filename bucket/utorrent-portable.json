@@ -15,7 +15,7 @@
     "persist": "Data",
     "checkver": {
       "url": "https://portableapps.com/apps/internet/utorrent_portable",
-      "re": "Version \\s+([\\w\\.]* for Win"
+      "re": "Version\\s+([\\w\\.]*) for Win"
     },
     "autoupdate": {
       "url": "https://ayera.dl.sourceforge.net/project/portableapps/uTorrent%20Portable/uTorrentPortable_$version_online.paf.exe",
