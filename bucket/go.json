@@ -38,6 +38,16 @@
         "bin\\go.exe",
         "bin\\gofmt.exe"
     ],
+    "env_add_path": ".go\\bin",
+    "env_set": {
+        "GO111MODULE": "on",
+        "GOROOT": "$dir",
+        "GOPATH": "$dir\\.go",
+        "GOPROXY": "https://mirrors.cloud.tencent.com/go/"
+    },
+    "persist": [
+        ".go"
+      ],
     "checkver": {
         "url": "https://golang.org/dl/",
         "regex": "go([\\d.]+)\\.windows-"

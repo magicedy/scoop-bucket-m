@@ -19,8 +19,8 @@
         }
       },
       "hash": {
-        "regex": "(?sm)$basename.*?$md5",
-        "url": "https://www.python.org/downloads/release/python-$cleanVersion/"
+        "url": "https://www.python.org/downloads/release/python-$cleanVersion/",
+        "regex": "$basename[\\S\\s]+?([A-Fa-f\\d]{32})"
       }
     },
     "bin": [
@@ -40,19 +40,20 @@
       [
         "Lib\\idlelib\\idle.bat",
         "idle38"
-      ],
-      "pypi-mirror.ps1"
+      ]
     ],
     "checkver": {
-      "regex": "(3.8.\\d+)",
-      "reverse": true,
-      "url": "https://repo.huaweicloud.com/python/"
+      "url": "https://www.python.org/downloads/windows/",
+      "regex": "python-(3\\.8\\.[\\d.]+)-"
     },
     "description": "A programming language that lets you work quickly and integrate systems more effectively.",
     "env_add_path": [
       "Scripts",
       "."
     ],
+    "env_set": {
+      "PYTHONUTF8": "1"
+    },
     "homepage": "https://www.python.org/",
     "installer": {
       "script": [
@@ -83,7 +84,7 @@
       "Write-Output \"`e[0m\" # Reset ansi to prevent color leak from installer",
       "sudo regedit /s \"$dir\\install-pep-514.reg\"",
       "Copy-Item \"$bucketsdir\\$bucket\\scripts\\python\\pypi-mirror.ps1\" \"$dir\\pypi-mirror.ps1\" -ErrorAction 'SilentlyContinue' -Force | Out-Null",
-      "pwsh \"$dir\\pypi-mirror.ps1\" -m tuna | Out-Null"
+      ". \"$dir\\pypi-mirror.ps1\" -m tencent | Out-Null"
     ],
     "pre_install": [
       "$py_root = \"$dir\".Replace('\\', '\\\\')",
