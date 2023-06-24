@@ -9,7 +9,7 @@
     "architecture": {
       "64bit": {
         "url": "file:///c:/scoop/persist/local_install/Beyond_Compare_4.4.2.26348_64bit_Green.7z",
-        "hash": "ec1a29958aa29fd8c007d3329eada433cdffd5a914ccfa83a0727ce52d6dafff"
+        "hash": "f153793586e8ea7728cb2a00e4aa0b71a54ea78e9a7da43715e0ce372fe22bd6"
       }
     },
     "extract_dir": "BCompare",
