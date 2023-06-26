@@ -45,7 +45,7 @@
     ],
     "checkver": {
         "url": "https://www.scootersoftware.com/download.php?zz=kb_dl4_winalternate",
-        "regex": "BCompare-([\\w\\.]*)_x64\\.exe"
+        "regex": "BCompare-([\\w\\.]*)\\.exe"
     },
     "autoupdate": {
         "architecture": {
