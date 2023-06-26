@@ -8,12 +8,8 @@
     },
     "url": "https://mirrors.cloud.tencent.com/AndroidSDK/platform-tools_r34.0.1-windows.zip",
     "hash": "328e7fa407ac50672b3935e2cf1ae40b4bf08120605b91ed1b089e065bce517c",
-    "bin": [
-        "platform-tools\\adb.exe",
-        "platform-tools\\dmtracedump.exe",
-        "platform-tools\\etc1tool.exe",
-        "platform-tools\\fastboot.exe",
-        "platform-tools\\hprof-conv.exe"
+    "env_add_path": [
+        "platform-tools"
     ],
     "checkver": "<h4.*>([\\d.]+) \\(.*\\)</h4>",
     "autoupdate": {
