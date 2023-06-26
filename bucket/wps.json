@@ -21,12 +21,5 @@
         "wpsoffice.exe",
         "WPS Office"
       ]
-    ],
-    "checkver": {
-      "url": "https://platform.wps.cn/",
-      "regex": "W\\.P\\.S\\.([\\d.]+)\\.exe"
-    },
-    "autoupdate": {
-      "url": "https://official-package.wpscdn.cn/wps/download/W.P.S.$version.exe"
-    }
+    ]
   }

@@ -8,7 +8,7 @@
     },
     "architecture": {
       "64bit": {
-        "url": "https://www.advancedrenamer.com/down/advanced_renamer_portable_3_88_1.zip",
+        "url": "file:///c:/scoop/persist/local_install/advanced_renamer_portable_3_88_1.zip",
         "hash": "6398700c0c0c834d58e19afeda5ac0009335af2a6205ce0e3418e540cfe82920"
       }
     },
