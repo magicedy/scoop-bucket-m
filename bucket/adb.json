@@ -1,5 +1,5 @@
 {
-    "version": "34.0.1",
+    "version": "34.0.0",
     "description": "Android SDK platform-tools includes tools that interface with the Android platform, such as adb and fastboot",
     "homepage": "https://developer.android.com/studio/releases/platform-tools",
     "license": {
@@ -17,6 +17,6 @@
     ],
     "checkver": "<h4.*>([\\d.]+) \\(.*\\)</h4>",
     "autoupdate": {
-        "url": "https://dl.google.com/android/repository/platform-tools_r$version-windows.zip"
+        "url": "https://mirrors.cloud.tencent.com/AndroidSDK/platform-tools_r$version-windows.zip"
     }
 }
