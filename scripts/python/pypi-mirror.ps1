@@ -91,13 +91,13 @@ if ($mirror) {
     }
 
     python -m pip install --trusted-host https://${index_url} -i ${mirror_url} --upgrade pip
-    pip config set global.index-url ${mirror_url}
-    pip config set global.trusted-host ${index_url}
-    pip config set global.timeout 120
+    python -m pip config set global.index-url ${mirror_url}
+    python -m pip config set global.trusted-host ${index_url}
+    python -m pip config set global.timeout 120
 }
 
 if ($clear) {
-    pip config set global.index-url https://pypi.org/simple
-    pip config set global.trusted-host pypi.org
-    pip config set global.timeout 120
+    python -m pip config set global.index-url https://pypi.org/simple
+    python -m pip config set global.trusted-host pypi.org
+    python -m pip config set global.timeout 120
 }
