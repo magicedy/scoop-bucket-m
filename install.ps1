@@ -616,12 +616,12 @@ function Install-Scoop {
         $scoopUnzipTempDir = "$SCOOP_APP_DIR\_tmp"
         Write-Verbose "Extracting $scoopZipfile to $scoopUnzipTempDir"
         Expand-ZipArchive $scoopZipfile $scoopUnzipTempDir
-        Copy-Item "$scoopUnzipTempDir\scoop-*\*" $SCOOP_APP_DIR -Recurse -Force
+        Copy-Item "$scoopUnzipTempDir\*\*" $SCOOP_APP_DIR -Recurse -Force
         # 2. extract scoop main bucket
         $scoopMainUnzipTempDir = "$SCOOP_MAIN_BUCKET_DIR\_tmp"
         Write-Verbose "Extracting $scoopMainZipfile to $scoopMainUnzipTempDir"
         Expand-ZipArchive $scoopMainZipfile $scoopMainUnzipTempDir
-        Copy-Item "$scoopMainUnzipTempDir\Main-*\*" $SCOOP_MAIN_BUCKET_DIR -Recurse -Force
+        Copy-Item "$scoopMainUnzipTempDir\*\*" $SCOOP_MAIN_BUCKET_DIR -Recurse -Force
 
         # Cleanup
         Remove-Item $scoopUnzipTempDir -Recurse -Force
