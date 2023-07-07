@@ -1,18 +1,18 @@
 {
-    "version": "18.16.0",
+    "version": "18.16.1",
     "description": "An asynchronous event driven JavaScript runtime designed to build scalable network applications.",
     "homepage": "https://nodejs.org",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "http://mirrors.cloud.tencent.com/nodejs-release/v20.2.0/node-v20.2.0-win-x64.7z",
-            "hash": "d71be022ef9037075fb026cc674f731d42408facb0c74ecd9169ed77d56c6816",
-            "extract_dir": "node-v20.2.0-win-x64"
+            "url": "http://mirrors.cloud.tencent.com/nodejs-release/v18.16.1/node-v18.16.1-win-x64.7z",
+            "hash": "9c4415ae27452f47a547ad162ca4ab21dc6c5f2edd6656307e8150d1e3d19f08",
+            "extract_dir": "node-v18.16.1-win-x64"
         },
         "32bit": {
-            "url": "http://mirrors.cloud.tencent.com/nodejs-release/v20.2.0/node-v20.2.0-win-x86.7z",
-            "hash": "1ad5011bc31dd99090770fd5e45cdaffc101c0ca08fb25633b4129214441861b",
-            "extract_dir": "node-v20.2.0-win-x86"
+            "url": "http://mirrors.cloud.tencent.com/nodejs-release/v18.16.1/node-v18.16.1-win-x86.7z",
+            "hash": "466025104f9c321ed7c83fdaafccbc9b3e24cea5bb9fdc9f4a07cc5cd2096019",
+            "extract_dir": "node-v18.16.1-win-x86"
         }
     },
     "persist": [
