@@ -4,26 +4,29 @@
     "homepage": "https://github.com/coreybutler/nvm-windows",
     "license": "MIT",
     "notes": "You'll need to restart powershell/cmd to have it reload Environment Variables so nvm will work correctly",
+    "depends": "sudo",
     "url": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.11/nvm-noinstall.zip",
     "hash": "md5:8f8a25a8b7dd42297ffebcf9373811be",
-    "architecture": {
-        "64bit": {
-            "pre_install": [
-                "if(!(test-path \"$dir\\settings.txt\")) {",
-                "    write-output \"root: $persist_dir\\nodejs`r`narch: 64`r`nproxy: none\" | Out-File -encoding \"ASCII\" \"$dir\\settings.txt\"",
-                "}"
-            ]
-        },
-        "32bit": {
-            "pre_install": [
-                "if(!(test-path \"$dir\\settings.txt\")) {",
-                "    write-output \"root: $persist_dir\\nodejs`r`narch: 32`r`nproxy: none\" | Out-File -encoding \"ASCII\" \"$dir\\settings.txt\"",
-                "}"
-            ]
-        }
-    },
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\settings.txt\")) { New-Item \"$dir\\settings.txt\" | Out-Null }"
+    ],
+    "post_install": [
+        "[Environment]::SetEnvironmentVariable('NVM_HOME', \"$dir\", 'Process')",
+        "[Environment]::SetEnvironmentVariable('NVM_SYMLINK', \"$persist_dir/nodejs/nodejs\", 'Process')",
+        "nvm root $persist_dir\\nodejs",
+        "nvm node_mirror https://npm.taobao.org/mirrors/node/",
+        "nvm npm_mirror https://npm.taobao.org/mirrors/npm/",
+        "nvm install lts",
+        "sudo nvm on",
+        "Write-Output \"Set npm prefix to install modules inside bin and npm cache so they persist\"",
+        "$file = \"$persist_dir/nodejs/nodejs/node_modules/npm/.npmrc\"",
+        "Set-Content \"$file\" \"prefix=$persist_dir/nodejs/bin`ncache=$persist_dir/nodejs/cache`nregistry=https://registry.npm.taobao.org/\" -encoding \"ASCII\""
+    ],
     "bin": "nvm.exe",
-    "env_add_path": "nodejs\\nodejs",
+    "env_add_path": [
+        "nodejs\\nodejs",
+        "bin"
+    ],
     "env_set": {
         "NVM_HOME": "$dir",
         "NVM_SYMLINK": "$persist_dir\\nodejs\\nodejs"
@@ -37,6 +40,14 @@
         [
             "elevate.vbs",
             "nodejs\\elevate.vbs"
+        ],
+        [
+            "bin",
+            "nodejs\\bin"
+        ],
+        [
+            "cache",
+            "nodejs\\cache"
         ],
         "settings.txt"
     ],
