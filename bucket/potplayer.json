@@ -20,20 +20,6 @@
                     "PotPlayer Mini"
                 ]
             ]
-        },
-        "32bit": {
-            "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/230705/PotPlayerSetup.exe#/dl.7z",
-            "hash": "b55b31a96cae54ebb5dd3f061f289ca3c5b34d3244256b75ac1b03dd339fc5e4",
-            "shortcuts": [
-                [
-                    "PotPlayer.exe",
-                    "PotPlayer"
-                ],
-                [
-                    "PotPlayerMini.exe",
-                    "PotPlayer Mini"
-                ]
-            ]
         }
     },
     "pre_install": [
@@ -76,9 +62,6 @@
         "architecture": {
             "64bit": {
                 "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/$version/PotPlayerSetup64.exe#/dl.7z"
-            },
-            "32bit": {
-                "url": "https://t1.daumcdn.net/potplayer/PotPlayer/Version/$version/PotPlayerSetup.exe#/dl.7z"
             }
         }
     }

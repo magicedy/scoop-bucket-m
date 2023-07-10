@@ -8,11 +8,6 @@
             "url": "https://mirror.nju.edu.cn/github-release/fatedier/frp/v0.51.0/frp_0.51.0_windows_amd64.zip",
             "hash": "025bf967e37ce095f31bc45d886156d365a0e9dc7aa0e7f3bbc91bd1c9717145",
             "extract_dir": "frp_0.51.0_windows_amd64"
-        },
-        "32bit": {
-            "url": "https://mirror.nju.edu.cn/github-release/fatedier/frp/v0.51.0/frp_0.51.0_windows_386.zip",
-            "hash": "26c48aa4fa4458ad29d0de364904e24be40424d4f6c37005c2c2d9c6e41e2b06",
-            "extract_dir": "frp_0.51.0_windows_386"
         }
     },
     "bin": [
@@ -31,10 +26,6 @@
             "64bit": {
                 "url": "https://mirror.nju.edu.cn/github-release/fatedier/frp/v$version/frp_$version_windows_amd64.zip",
                 "extract_dir": "frp_$version_windows_amd64"
-            },
-            "32bit": {
-                "url": "https://mirror.nju.edu.cn/github-release/fatedier/frp/v$version/frp_$version_windows_386.zip",
-                "extract_dir": "frp_$version_windows_386"
             }
         }
     }

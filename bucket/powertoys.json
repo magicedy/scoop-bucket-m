@@ -7,10 +7,6 @@
         "64bit": {
             "url": "https://mirror.nju.edu.cn/github-release/microsoft/PowerToys/Release%20v0.71.0/PowerToysUserSetup-0.71.0-x64.exe",
             "hash": "4c6ccb3055e3838da50ff529a670baad129570f4bfabf497b5d92259d3052794"
-        },
-        "arm64": {
-            "url": "https://mirror.nju.edu.cn/github-release/microsoft/PowerToys/Release%20v0.71.0/PowerToysUserSetup-0.71.0-arm64.exe",
-            "hash": "48633758dfbb99de34ba2d3e3f294a60ef7e01015296d29a884251068b6fe3f6"
         }
     },
     "installer": {
@@ -54,13 +50,6 @@
                 "hash": {
                     "url": "https://github.com/microsoft/PowerToys/releases/tag/v$version",
                     "regex": ">$sha256<"
-                }
-            },
-            "arm64": {
-                "url": "https://mirror.nju.edu.cn/github-release/microsoft/PowerToys/Release%20v$version/PowerToysUserSetup-$version-arm64.exe",
-                "hash": {
-                    "url": "https://github.com/microsoft/PowerToys/releases/tag/v$version",
-                    "regex": ">(?:[a-fA-F0-9]{64})<[\\s\\S]*?>([a-fA-F0-9]{64})<"
                 }
             }
         }

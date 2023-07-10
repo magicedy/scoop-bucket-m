@@ -14,14 +14,6 @@
         "64bit": {
             "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/PowerShell/PowerShell/v7.3.5%20Release%20of%20PowerShell/PowerShell-7.3.5-win-x64.zip",
             "hash": "c529d644cfef5a3a7e81f9b68e354ef887f345c7822e3581e9abd7a627f1a03e"
-        },
-        "32bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/PowerShell/PowerShell/v7.3.5%20Release%20of%20PowerShell/PowerShell-7.3.5-win-x86.zip",
-            "hash": "9c269eb3a8acda5f263d66842015ba39dc3cece72b87d482d1dc00d5c5e931ab"
-        },
-        "arm64": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/PowerShell/PowerShell/v7.3.5%20Release%20of%20PowerShell/PowerShell-7.3.5-win-arm64.zip",
-            "hash": "e5aff3d6e1c08527dad7d4e563a38060060c4f8c70741152ccba9577c9538f9f"
         }
     },
     "pre_install": [
@@ -59,12 +51,6 @@
         "architecture": {
             "64bit": {
                 "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/PowerShell/PowerShell/v$version%20Release%20of%20PowerShell/PowerShell-$version-win-x64.zip"
-            },
-            "32bit": {
-                "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/PowerShell/PowerShell/v$version%20Release%20of%20PowerShell/PowerShell-$version-win-x86.zip"
-            },
-            "arm64": {
-                "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/PowerShell/PowerShell/v$version%20Release%20of%20PowerShell/PowerShell-$version-win-arm64.zip"
             }
         },
         "hash": {

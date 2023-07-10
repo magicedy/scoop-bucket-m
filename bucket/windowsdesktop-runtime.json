@@ -8,14 +8,6 @@
         "64bit": {
             "url": "https://dotnetcli.blob.core.windows.net/dotnet/WindowsDesktop/7.0.8/windowsdesktop-runtime-7.0.8-win-x64.exe",
             "hash": "sha512:68337ebb614049596cc80eb2a4a3803b403e1f8268af00a367e99b0af28e6934e2de4ef3985882b5a06f764b287d7f6df3a98ff49132288cd5b3a491e402f7e5"
-        },
-        "32bit": {
-            "url": "https://dotnetcli.blob.core.windows.net/dotnet/WindowsDesktop/7.0.8/windowsdesktop-runtime-7.0.8-win-x86.exe",
-            "hash": "sha512:2242a923890050d71b14c54fd754066e1ec78877764649f36c47050f7232638d9f954bd726519f0567b61bcc150e9637e6040a8ce8c4f19a659d9e136541f050"
-        },
-        "arm64": {
-            "url": "https://dotnetcli.blob.core.windows.net/dotnet/WindowsDesktop/7.0.8/windowsdesktop-runtime-7.0.8-win-arm64.exe",
-            "hash": "sha512:6a68cb4f2b9dff00b4243deed0f7c4537c21d01b10078765cb596b2bf3fe6cd309596ebb95a60969facf775490bc080d73d24f8da5249f2ddb5983b6dc58c75b"
         }
     },
     "pre_install": "if (!(is_admin)) { throw 'Admin privileges are required.' }",
@@ -30,12 +22,6 @@
         "architecture": {
             "64bit": {
                 "url": "https://dotnetcli.blob.core.windows.net/dotnet/WindowsDesktop/$version/windowsdesktop-runtime-$version-win-x64.exe"
-            },
-            "32bit": {
-                "url": "https://dotnetcli.blob.core.windows.net/dotnet/WindowsDesktop/$version/windowsdesktop-runtime-$version-win-x86.exe"
-            },
-            "arm64": {
-                "url": "https://dotnetcli.blob.core.windows.net/dotnet/WindowsDesktop/$version/windowsdesktop-runtime-$version-win-arm64.exe"
             }
         },
         "hash": {

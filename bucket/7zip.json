@@ -9,21 +9,6 @@
             "url": "https://mirror.nju.edu.cn/7-zip/7z2301-x64.msi",
             "hash": "0ba639b6dacdf573d847c911bd147c6384381a54dac082b1e8c77bc73d58958b",
             "extract_dir": "Files\\7-Zip"
-        },
-        "32bit": {
-            "url": "https://mirror.nju.edu.cn/7-zip/7z2301.msi",
-            "hash": "b32e47f88d03dc29b5cb02c6ed07a7e48015f655346b62a3b32033c49ed9bb06",
-            "extract_dir": "Files\\7-Zip"
-        },
-        "arm64": {
-            "url": "https://mirror.nju.edu.cn/7-zip/7z2301-arm64.exe",
-            "hash": "6fa4cb35cbebb0a46b8bbc22d1686a340e183c1f875d8b714efdc39af93debda",
-            "pre_install": [
-                "$7zr = Join-Path $env:TMP '7zr.exe'",
-                "Invoke-WebRequest https://mirror.nju.edu.cn/7-zip/7zr.exe -OutFile $7zr",
-                "Invoke-ExternalCommand $7zr @('x', \"$dir\\$fname\", \"-o$dir\", '-y') | Out-Null",
-                "Remove-Item \"$dir\\Uninstall.exe\", \"$dir\\*-arm64.exe\", $7zr"
-            ]
         }
     },
     "post_install": [
@@ -59,12 +44,6 @@
         "architecture": {
             "64bit": {
                 "url": "https://mirror.nju.edu.cn/7-zip/7z$cleanVersion-x64.msi"
-            },
-            "32bit": {
-                "url": "https://mirror.nju.edu.cn/7-zip/7z$cleanVersion.msi"
-            },
-            "arm64": {
-                "url": "https://mirror.nju.edu.cn/7-zip/7z$cleanVersion-arm64.exe"
             }
         }
     }

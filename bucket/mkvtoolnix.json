@@ -7,10 +7,6 @@
         "64bit": {
             "url": "https://mkvtoolnix.download/windows/releases/78.0/mkvtoolnix-64-bit-78.0.7z",
             "hash": "sha512:b3d2f33b92ceb7826dc11375a18322c8ea7c0cdd6f102afdfee97bc3dcb996e5e2960208ab1dfca4284e455d54c56b53a53e65bc7e076ff2b5d47a533ecb6553"
-        },
-        "32bit": {
-            "url": "https://mkvtoolnix.download/windows/releases/78.0/mkvtoolnix-32-bit-78.0.7z",
-            "hash": "sha512:9981b024040fda335f55ff94e43ccc492de3aedbb10827afe7f3a7d5c47ebaac1e619fa629db61809b2a8dbcefebae895a0e6e37cf95bc6f8179a355c5155efa"
         }
     },
     "extract_dir": "mkvtoolnix",
@@ -50,9 +46,6 @@
         "architecture": {
             "64bit": {
                 "url": "https://mkvtoolnix.download/windows/releases/$version/mkvtoolnix-64-bit-$version.7z"
-            },
-            "32bit": {
-                "url": "https://mkvtoolnix.download/windows/releases/$version/mkvtoolnix-32-bit-$version.7z"
             }
         },
         "hash": {
