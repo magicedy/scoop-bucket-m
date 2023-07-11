@@ -25,9 +25,9 @@
         "regex": "The current Gradle release is version ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://mirror.nju.edu.cn/gradle/gradle-$version-all.zip",
+        "url": "https://mirrors.cloud.tencent.com/gradle/gradle-$version-all.zip",
         "hash": {
-            "url": "$url.sha256"
+            "url": "https://services.gradle.org/distributions/gradle-$version-all.zip.sha256"
         },
         "extract_dir": "gradle-$version"
     }
