@@ -1,5 +1,5 @@
 {
-    "version": "6.0.411",
+    "version": "6.0.412",
     "description": ".NET is a free, cross-platform, open source developer platform for building many different types of applications.",
     "homepage": "https://www.microsoft.com/net/",
     "license": "MIT",
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.411/dotnet-sdk-6.0.411-win-x64.zip",
-            "hash": "sha512:96efc948434bdb88aa2d609c65a8eadd9df750fcdf156b0384caa004e170e16113d5bcb719de423e4f0b184a36004ea86bac8e3d553047485001976740d59bc9"
+            "url": "https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.412/dotnet-sdk-6.0.412-win-x64.zip",
+            "hash": "sha512:824f5dd4390cad4ac7ddc344a6cdecda3ff9f19adef0ac77430302a2fa8df57e1e044c2c3ea83545ff25223b856873364239067b448707bb009788dce7f0c732"
         }
     },
     "env_add_path": ".",
