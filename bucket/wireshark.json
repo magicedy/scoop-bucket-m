@@ -1,5 +1,5 @@
 {
-    "version": "4.0.7",
+    "version": "4.0.6",
     "description": "A network protocol analyzer that lets you see what’s happening on your network at a microscopic level.",
     "homepage": "https://www.wireshark.org/",
     "license": "GPL-2.0-or-later",
@@ -53,7 +53,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.wireshark.org/download/win64/Wireshark-win64-$version.exe#/dl.7z",
+                "url": "https://mirror.nju.edu.cn/wireshark/win64/Wireshark-win64-$version.exe#/dl.7z",
                 "hash": {
                     "url": "https://www.wireshark.org/download/SIGNATURES-$version.txt",
                     "regex": "SHA256\\($basename\\)=$sha256"
