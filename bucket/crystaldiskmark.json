@@ -44,10 +44,7 @@
         "DiskMark32.ini",
         "DiskMark64.ini"
     ],
-    "checkver": {
-        "url": "https://crystalmark.info/en/download/",
-        "regex": "CrystalDiskMark\\s+([\\w.]+)\\s"
-    },
+    "checkver": "releases/(?<release>\\d+)\">CrystalDiskMark\\s+([\\w.]+)<",
     "autoupdate": {
         "url": "https://mirror.nju.edu.cn/osdn/crystaldiskmark/$matchRelease/CrystalDiskMark$underscoreVersion.zip"
     }

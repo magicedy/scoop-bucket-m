@@ -45,10 +45,7 @@
         "Smart",
         "DiskInfo.ini"
     ],
-    "checkver": {
-        "url": "https://crystalmark.info/en/download/",
-        "regex": "CrystalDiskInfo\\s+([\\w.]+)\\s"
-    },
+    "checkver": "releases/(?<release>\\d+)\">CrystalDiskInfo\\s+([\\w.]+)<",
     "autoupdate": {
         "url": "https://mirror.nju.edu.cn/osdn/crystaldiskinfo/$matchRelease/CrystalDiskInfo$underscoreVersion.zip"
     }
