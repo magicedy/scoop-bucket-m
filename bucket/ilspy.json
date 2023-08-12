@@ -24,6 +24,6 @@
       "regex": "download/v(?<tag>[\\d.]+)/ILSpy_binaries_([\\d.]+).zip"
     },
     "autoupdate": {
-      "url": "https://github.com/icsharpcode/ILSpy/releases/download/v$matchTag/ILSpy_binaries_$version.zip"
+      "url": "https://github.com/icsharpcode/ILSpy/releases/download/v$matchTag/ILSpy_binaries_$version-x64.zip"
     }
   }
