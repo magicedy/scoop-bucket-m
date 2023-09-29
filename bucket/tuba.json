@@ -1,9 +1,9 @@
 {
-    "version": "2023.05",
+    "version": "2023.09",
     "homepage": "http://www.tbtool.cn/",
     "description": "图吧工具箱",
-    "url": "https://download.tualatin.club/%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B12023.05%E7%BB%BF%E8%89%B2%E7%89%88%E8%87%AA%E5%8A%A8%E8%A7%A3%E5%8E%8B%E7%A8%8B%E5%BA%8FR3.exe#/TuBaTool.7z",
-    "hash": "C6DA66C322FCB590EE4C76E7E5A84CDC81075F4CE8F26741943E262F43B70AAD",
+    "url": "https://download.tualatin.club/[%E7%BB%BF%E8%89%B2%E7%89%88]%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1202309.sfx.exe#/TuBaTool.7z",
+    "hash": "9DAF7E425A11B063955ADEF4CB9C38FBE6BABB79A50EF0C700AC8BF07DC6EEE7",
     "license": "MIT",
     "shortcuts": [
       [
@@ -19,4 +19,3 @@
       "url": "https://download.tualatin.club/[%E7%BB%BF%E8%89%B2%E7%89%88]%E5%9B%BE%E5%90%A7%E5%B7%A5%E5%85%B7%E7%AE%B1$cleanVersion.sfx.exe#/TuBaTool.7z"
     }
   }
-  
