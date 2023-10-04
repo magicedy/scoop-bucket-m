@@ -27,7 +27,7 @@
     },
     "extract_dir": "flutter",
     "hash": [
-        "e2c6184fd01338031214c611ad27235d314ecb03a065426a85098a527925a671",
+        "91db20ea17dd0838a22d92efb3e4b25c40552e79ec6708b0bf37ba2fa685f1b4",
         "bbd8dd269dd70d97e0224025281e55b7e2e32364d5c47e082ca7f45e33d1a613"
     ],
     "homepage": "https://flutter.dev",
@@ -45,8 +45,8 @@
         ]
     },
     "url": [
-        "https://mirrors.tuna.tsinghua.edu.cn/flutter/flutter_infra/releases/stable/windows/flutter_windows_2.2.1-stable.zip",
+        "https://mirrors.tuna.tsinghua.edu.cn/flutter/flutter_infra/releases/stable/windows/flutter_windows_3.13.6-stable.zip",
         "https://ghproxy.com/https://raw.githubusercontent.com/ScoopInstaller/Extras/master/scripts/flutter-dev-setup.ps1"
     ],
-    "version": "2.2.1"
+    "version": "3.13.6"
 }
