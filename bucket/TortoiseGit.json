@@ -1,5 +1,5 @@
 {
-    "version": "2.14.0.0",
+    "version": "2.15.0.0",
     "description": "Windows Shell Interface to Git based on TortoiseSVN.",
     "homepage": "https://tortoisegit.org/",
     "license": {
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://repo.huaweicloud.com/tortoisegit/2.14.0.0/TortoiseGit-2.14.0.0-64bit.msi",
-            "hash": "df07f0f3d9888fd153d5d08f4a8ccb1ba4f2553316d78e101c1800bc42f9ad0c"
+            "url": "https://repo.huaweicloud.com/tortoisegit/2.15.0.0/TortoiseGit-2.15.0.0-64bit.msi",
+            "hash": "481359c8773e1d098b98156ff44f0dd50304e97a866d44e6594c709ec5a61377"
         }
     },
     "extract_dir": "Program Files\\TortoiseGit",
