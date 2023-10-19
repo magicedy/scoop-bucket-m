@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Open with &NotepadNext]
+@="Open with &NotepadNext"
+"Icon"="$nn"
+[HKEY_CURRENT_USER\Software\Classes\*\shell\Open with &NotepadNext\command]
+@="\"$nn\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Open with &NotepadNext]
+@="Open with &NotepadNext"
+"Icon"="$nn"
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\Open with &NotepadNext\command]
+@="\"$nn\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Open with &NotepadNext]
+@="Open with &NotepadNext"
+"Icon"="$nn"
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\Open with &NotepadNext\command]
+@="\"$nn\" \"%V\""
