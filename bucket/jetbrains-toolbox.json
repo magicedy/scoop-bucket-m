@@ -8,7 +8,8 @@
     },
     "notes": [
         "By default all your tools are installed into '$dir\\apps' folder and are persisted.",
-        "This could be changed inside settings menu."
+        "This could be changed inside settings menu.",
+        "Add IDEA as a context menu option by running: reg import \"$dir\\install-context.reg\""
     ],
     "url": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-2.0.4.17212.exe#/dl.7z",
     "hash": "a3a20261f5ecdc714ae341fefc1f0d0dc7974a2c4e62583914816e376812d039",
@@ -23,6 +24,14 @@
         "    }",
         "    New-Item $config -Type File -Force | Out-Null",
         "    Set-Content $config ($settings | ConvertToPrettyJson) -Encoding ASCII -Force",
+        "}",
+        "'install-context', 'uninstall-context' | ForEach-Object {",
+        "    if (Test-Path \"$bucketsdir\\$bucket\\scripts\\jetbrains-toolbox\\$_.reg\") {",
+        "        $ideaPath = \"$dir\\apps\\IntelliJ IDEA Ultimate\\bin\\idea64.exe\".Replace('\\', '\\\\')",
+        "        $content = (Get-Content \"$bucketsdir\\$bucket\\scripts\\jetbrains-toolbox\\$_.reg\").Replace('$idea', $ideaPath)",
+        "        if ($global) { $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') }",
+        "        Set-Content \"$dir\\$_.reg\" $content -Encoding Ascii -Force",
+        "    }",
         "}"
     ],
     "bin": "jetbrains-toolbox.exe",
