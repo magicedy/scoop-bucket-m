@@ -1,13 +1,13 @@
 {
-    "version": "7.0.12",
+    "version": "7.0.13",
     "description": "Microsoft .NET 7.0 Desktop Runtime",
     "homepage": "https://dotnet.microsoft.com/download/dotnet",
     "license": "MIT",
     "notes": "You can now remove this installer with 'scoop uninstall windowsdesktop-runtime'",
     "architecture": {
         "64bit": {
-            "url": "https://dotnetcli.blob.core.windows.net/dotnet/WindowsDesktop/7.0.12/windowsdesktop-runtime-7.0.12-win-x64.exe",
-            "hash": "sha512:a366e858eaca7330358ef5d7a7efada45cc64284e36ba9f7722fa1a1644b1b34b343e700ce718ef67d08c7abf718eff7aefb4d5909ca7b5f63b4056b132c83de"
+            "url": "https://dotnetcli.blob.core.windows.net/dotnet/WindowsDesktop/7.0.13/windowsdesktop-runtime-7.0.13-win-x64.exe",
+            "hash": "sha512:66b252ea80571d29be668511c131f03c2d4d0d99c018ad21471048c96c5d41b175443910099e8579c4356562d7ba92793e971b510e4372d709b1ef549c0cc523"
         }
     },
     "pre_install": "if (!(is_admin)) { throw 'Admin privileges are required.' }",
