@@ -1,7 +1,7 @@
 {
     "version": "9.0.1a",
-    "description": "A HDD/SSD utility software which supports a part of USB, Intel RAID and NVMe",
-    "homepage": "https://crystalmark.info/en/software/crystaldiskinfo/",
+    "description": "HDD/SSD utility software which supports S.M.A.R.T and a part of USB-HDD",
+    "homepage": "https://osdn.net/projects/crystaldiskinfo/",
     "license": "MIT",
     "url": "https://mirror.nju.edu.cn/osdn/crystaldiskinfo/78836/CrystalDiskInfo9_0_1a.zip",
     "hash": "5914b777d8286c223eea9c88913767a4a302ec33de478f44f92c1dbac111f663",
@@ -45,10 +45,7 @@
         "Smart",
         "DiskInfo.ini"
     ],
-    "checkver": {
-        "url": "https://crystalmark.info/en/download/",
-        "regex": "CrystalDiskInfo\\s+([\\w.]+)\\s"
-    },
+    "checkver": "releases/(?<release>\\d+)\">CrystalDiskInfo\\s+([\\w.]+)<",
     "autoupdate": {
         "url": "https://mirror.nju.edu.cn/osdn/crystaldiskinfo/$matchRelease/CrystalDiskInfo$underscoreVersion.zip"
     }
