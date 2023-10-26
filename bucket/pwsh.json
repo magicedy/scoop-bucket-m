@@ -54,7 +54,7 @@
             }
         },
         "hash": {
-            "url": "$baseurl/hashes.sha256"
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v$version/hashes.sha256"
         }
     }
 }
