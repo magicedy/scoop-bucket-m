@@ -13,7 +13,7 @@
     "bin": "aria2c.exe",
     "checkver": {
         "github": "https://github.com/aria2/aria2",
-        "regex": "/release-(?:[\\d.]+)/aria2-(?<version>[\\d.]+)-win-64bit-build(?<build>[\\d]+)\\.zip",
+        "regex": "aria2-(?<version>[\\d.]+)-win-64bit-build(?<build>[\\d]+)\\.zip",
         "replace": "${version}-${build}"
     },
     "autoupdate": {
