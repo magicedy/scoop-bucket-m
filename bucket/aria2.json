@@ -1,5 +1,5 @@
 {
-    "version": "1.36.0-1",
+    "version": "1.35.0-1",
     "description": "Lightweight multi-protocol & multi-source command-line download utility",
     "homepage": "https://aria2.github.io/",
     "license": "GPL-2.0-or-later",
@@ -12,8 +12,9 @@
     },
     "bin": "aria2c.exe",
     "checkver": {
-        "github": "https://github.com/aria2/aria2",
-        "regex": "aria2-(?<version>[\\d.]+)-win-64bit-build(?<build>[\\d]+)\\.zip",
+        "url": "https://api.github.com/repos/aria2/aria2/releases/latest",
+        "jsonpath": "$..browser_download_url",
+        "regex": "download/release-(?:[\\\\d.]+)/aria2-(?<version>[\\d.]+)-win-64bit-build(?<build>[\\d]+)\\.zip",
         "replace": "${version}-${build}"
     },
     "autoupdate": {
