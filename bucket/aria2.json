@@ -14,7 +14,7 @@
     "checkver": {
         "url": "https://api.github.com/repos/aria2/aria2/releases/latest",
         "jsonpath": "$..browser_download_url",
-        "regex": "download/release-(?:[\\\\d.]+)/aria2-(?<version>[\\d.]+)-win-64bit-build(?<build>[\\d]+)\\.zip",
+        "regex": "download/release-(?:[\\d.]+)/aria2-(?<version>[\\d.]+)-win-64bit-build(?<build>[\\d]+)\\.zip",
         "replace": "${version}-${build}"
     },
     "autoupdate": {
