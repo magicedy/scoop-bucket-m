@@ -13,14 +13,17 @@ jobs:
           fetch-depth: 0
           repository: 'ScoopInstaller/Scoop'
 
-      - uses: yesolutions/mirror-action@master
+      - name: ↔️sync codeberg
+        uses: yesolutions/mirror-action@master
         with:
           REMOTE: 'https://codeberg.org/magicedy/Scoop.git'
           GIT_USERNAME: magicedy
           GIT_PASSWORD: ${{ secrets.CODEBERG_TOKEN }}
 
-      - uses: yesolutions/mirror-action@master
+      - name: ↔️sync gitea
+        uses: yesolutions/mirror-action@master
         with:
           REMOTE: 'https://gitea.com/magicedy/Scoop.git'
           GIT_USERNAME: magicedy
           GIT_PASSWORD: ${{ secrets.GITEA_TOKEN }}
+
