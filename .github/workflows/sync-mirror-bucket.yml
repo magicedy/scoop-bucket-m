@@ -1,0 +1,26 @@
+name: sync mirror bucket
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: yesolutions/mirror-action@master
+        with:
+          REMOTE: 'https://codeberg.org/magicedy/scoop-bucket-m.git'
+          GIT_USERNAME: magicedy
+          GIT_PASSWORD: ${{ secrets.CODEBERG_TOKEN }}
+
+      - uses: yesolutions/mirror-action@master
+        with:
+          REMOTE: 'https://gitea.com/magicedy/scoop-bucket-m.git'
+          GIT_USERNAME: magicedy
+          GIT_PASSWORD: ${{ secrets.GITEA_TOKEN }}
