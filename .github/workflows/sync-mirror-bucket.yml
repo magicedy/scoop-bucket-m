@@ -13,16 +13,18 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: ↔️sync codeberg
+      - name: 🚀️ sync mirror in codeberg
         uses: yesolutions/mirror-action@master
         with:
           REMOTE: 'https://codeberg.org/magicedy/scoop-bucket-m.git'
+          REMOTE_NAME: codeberg
           GIT_USERNAME: magicedy
           GIT_PASSWORD: ${{ secrets.CODEBERG_TOKEN }}
 
-      - name: ↔️sync gitea
+      - name: 🚀️ sync mirror in gitea
         uses: yesolutions/mirror-action@master
         with:
           REMOTE: 'https://gitea.com/magicedy/scoop-bucket-m.git'
+          REMOTE_NAME: gitea
           GIT_USERNAME: magicedy
           GIT_PASSWORD: ${{ secrets.GITEA_TOKEN }}
