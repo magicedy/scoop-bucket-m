@@ -15,7 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: ⬇ Checkout repo
-        uses: actions/checkout@master
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}
       - name: ♻ Run autoupdate
         uses: foosel/scoop-checkver-action@main
         with:
@@ -40,3 +42,7 @@ jobs:
 
           # finally push
           git push
+        env:
+          REPO_KEY: ${{ secrets.PAT }}
+          USERNAME: github-actions[bot]
+
