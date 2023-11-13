@@ -55,6 +55,7 @@
     "env_set": {
         "GIT_INSTALL_ROOT": "$dir"
     },
+    "env_add_path": "usr\\bin",
     "checkver": {
         "url": "https://api.github.com/repos/git-for-windows/git/releases/latest",
         "jsonpath": "$..browser_download_url",
