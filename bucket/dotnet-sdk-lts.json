@@ -20,12 +20,12 @@
     "pre_uninstall": "info 'If the uninstall fails with a message saying that access is denied, you may need to log out of your current account, log back in and try again.'",
     "checkver": {
         "url": "https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/releases-index.json",
-        "jsonpath": "$..releases-index[?(@.release-type == 'lts' && @.support-phase == 'active')].latest-sdk[0]"
+        "jsonpath": "$..releases-index[?(@.release-type == 'lts' && @.support-phase == 'active')].latest-sdk"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://dotnetcli.azureedge.net/dotnet/Sdk/$version/dotnet-sdk-$version-win-x64.zip"
+                "url": "https://dotnetcli.azureedge.net/dotnet/Sdk/$majorVersion.$minorVersion.$patchVersion/dotnet-sdk-$majorVersion.$minorVersion.$patchVersion-win-x64.zip"
             }
         },
         "hash": {
