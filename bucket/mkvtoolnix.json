@@ -1,12 +1,12 @@
 {
-    "version": "81.0",
+    "version": "82.0",
     "description": "A set of tools to create, alter and inspect Matroska files.",
     "homepage": "https://mkvtoolnix.download",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://mkvtoolnix.download/windows/releases/81.0/mkvtoolnix-64-bit-81.0.7z",
-            "hash": "sha512:cfd3c3e4a6c43a3c4007c141b04ee54d157693ed53f171ff76c84c40634ed1d4ed8c69bd2b76225df3db44c441343b18345e3f2804efae4802769e13f6ca8dfa"
+            "url": "https://mkvtoolnix.download/windows/releases/82.0/mkvtoolnix-64-bit-82.0.7z",
+            "hash": "sha512:892437a168178be9c44616db6e4e199b55015875f31ca2a4e45a6f5f6c51dd026dec664220736577e0151fc9341aed70e1b139f31d2feff18995d5b336ce1675"
         }
     },
     "extract_dir": "mkvtoolnix",
