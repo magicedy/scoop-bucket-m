@@ -76,12 +76,12 @@
     ],
     "checkver": {
         "url": "https://tortoisesvn.net/downloads.html",
-        "regex": "/Application/TortoiseSVN-([\\d.]+)-x64-svn-(?<svn>[\\d.]+)\\.msi"
+        "regex": "tortoisesvn/files/(?<release>[\\d.]+)/Application/TortoiseSVN-([\\d.]+)-x64-svn-(?<svn>[\\d.]+).msi"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://osdn.mirror.constant.com//storage/g/t/to/tortoisesvn/$matchHead/Application/TortoiseSVN-$version-x64-svn-$matchSvn.msi"
+                "url": "https://sourceforge.net/projects/tortoisesvn/files/$matchRelease/Application/TortoiseSVN-$version-x64-svn-$matchSvn.msi"
             }
         }
     }
