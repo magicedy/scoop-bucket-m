@@ -1,13 +1,13 @@
 {
-    "version": "20.10.0",
+    "version": "20.11.0",
     "description": "An asynchronous event driven JavaScript runtime designed to build scalable network applications.",
     "homepage": "https://nodejs.org",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "http://mirrors.cloud.tencent.com/nodejs-release/v20.10.0/node-v20.10.0-win-x64.7z",
-            "hash": "4d0f27ec72103f67eb904e7c17d2b7fb99816957b1cff9df1bd82a6507f1f265",
-            "extract_dir": "node-v20.10.0-win-x64"
+            "url": "http://mirrors.cloud.tencent.com/nodejs-release/v20.11.0/node-v20.11.0-win-x64.7z",
+            "hash": "83f1621f7f5debb14466e2a5a439b03a5508bf6ff9e36dd3be812d101d31b9d4",
+            "extract_dir": "node-v20.11.0-win-x64"
         }
     },
     "persist": [
