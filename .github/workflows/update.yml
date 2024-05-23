@@ -8,8 +8,6 @@ on:
         required: false
         default: ''
 
-env:
-  SCOOP_DEBUG: true
 
 name: Update bucket
 jobs:
