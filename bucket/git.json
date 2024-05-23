@@ -64,7 +64,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://mirror.nju.edu.cn/github-release/git-for-windows/git/Git%20for%20Windows%20v$matchTag/PortableGit-$version-64-bit.7z.exe#/dl.7z"
+                "url": "https://mirror.nju.edu.cn/github-release/git-for-windows/git/LatestRelease/PortableGit-$version-64-bit.7z.exe#/dl.7z"
             }
         },
         "hash": {
