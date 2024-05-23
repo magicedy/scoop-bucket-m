@@ -1,13 +1,13 @@
 {
-    "version": "23.01",
+    "version": "24.05",
     "description": "A multi-format file archiver with high compression ratios",
     "homepage": "https://www.7-zip.org/",
     "license": "LGPL-2.1-or-later",
     "notes": "Add 7-Zip as a context menu option by running: \"$dir\\install-context.reg\"",
     "architecture": {
         "64bit": {
-            "url": "https://mirror.nju.edu.cn/7-zip/7z2301-x64.msi",
-            "hash": "0ba639b6dacdf573d847c911bd147c6384381a54dac082b1e8c77bc73d58958b",
+            "url": "https://mirror.nju.edu.cn/7-zip/7z2405-x64.msi",
+            "hash": "0f6aa6596d418b1694f62c8583de05d24589b8d7ffacce5a7dab52ae71f832b6",
             "extract_dir": "Files\\7-Zip"
         }
     },
