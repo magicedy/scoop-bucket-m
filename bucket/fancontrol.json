@@ -23,14 +23,14 @@
         "Plugins"
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/Rem0o/FanControl.Releases/releases/latest",
+        "url": "https://api.github.com/repositories/268350681/releases/latest",
         "jsonpath": "$.assets..browser_download_url",
-        "regex": "/V([\\d.]+)/FanControl_net_(?<netver>(?!4_8)[\\d_]+).zip"
+        "regex": "/V([\\d.]+)/FanControl_([\\d.]+)_net_(?<netver>(?!4_8)(?!7_0)[\\d_]+).zip"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Rem0o/FanControl.Releases/releases/download/V$version/FanControl_net_$matchNetver.zip"
+                "url": "https://github.com/Rem0o/FanControl.Releases/releases/download/V$version/FanControl_$version_net_$matchNetver.zip"
             }
         }
     }
