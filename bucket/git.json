@@ -12,7 +12,7 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://mirror.nju.edu.cn/github-release/git-for-windows/git/Git%20for%20Windows%20v2.45.1.windows.1/PortableGit-2.45.1-64-bit.7z.exe#/dl.7z",
+            "url": "https://mirror.nju.edu.cn/github-release/git-for-windows/git/LatestRelease/PortableGit-2.45.1-64-bit.7z.exe#/dl.7z",
             "hash": "f4be1f923e9cc1ee0cb09e99f0e90cf254b530bb622d12064361563307e2f505"
         }
     },
