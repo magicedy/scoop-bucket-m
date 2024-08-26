@@ -20,7 +20,7 @@ jobs:
         with:
           token: ${{ secrets.PAT }}
       - name: ♻ Run autoupdate
-        uses: magicedy/scoop-checkver-action@main
+        uses: foosel/scoop-checkver-action@main
         with:
           bucket: bucket
           force: ${{ github.event.inputs.force }}
