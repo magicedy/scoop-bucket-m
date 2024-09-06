@@ -1,12 +1,12 @@
 {
-    "version": "1.23.0",
+    "version": "1.23.1",
     "description": "An open source programming language that makes it easy to build simple, reliable, and efficient software.",
     "homepage": "https://golang.org",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://mirror.nju.edu.cn/golang/go1.23.0.windows-amd64.zip",
-            "hash": "d4be481ef73079ee0ad46081d278923aa3fd78db1b3cf147172592f73e14c1ac"
+            "url": "https://mirror.nju.edu.cn/golang/go1.23.1.windows-amd64.zip",
+            "hash": "32dedf277c86610e380e1765593edb66876f00223df71690bd6be68ee17675c0"
         }
     },
     "extract_dir": "go",
