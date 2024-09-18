@@ -1,5 +1,5 @@
 {
-    "version": "6.0.1",
+    "version": "6.1.0",
     "description": "GameStream client for PCs (Windows, Mac, Linux, and Steam Link)",
     "homepage": "https://moonlight-stream.org",
     "license": "GPL-3.0-only",
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v6.0.1/MoonlightPortable-x64-6.0.1.zip",
-            "hash": "cb245662e9ba400bf31fbe88f21ec6264c811d0fc75af2ec921e81aa0051ab95"
+            "url": "https://github.com/moonlight-stream/moonlight-qt/releases/download/v6.1.0/MoonlightPortable-x64-6.1.0.zip",
+            "hash": "95f4d0853a31c7fced4b6d233ddf55ee41720963f2e2620a9cb49a21d112aed1"
         }
     },
     "shortcuts": [
