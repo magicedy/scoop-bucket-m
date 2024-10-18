@@ -1,15 +1,15 @@
 {
     "description": "Eclipse Temurin is a runtime provided by Eclipse Adoptium for general use across the Java ecosystem",
     "homepage": "https://adoptium.net",
-    "version": "11.0.24-8",
+    "version": "11.0.25-9",
     "license": "GPL-2.0-only WITH Classpath-exception-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/Adoptium/11/jdk/x64/windows/OpenJDK11U-jdk_x64_windows_hotspot_11.0.24_8.zip",
-            "hash": "e0181952006f9779551511d1f449ca33269a58b7b8802f001fd4ceeff2fd01f3"
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/Adoptium/11/jdk/x64/windows/OpenJDK11U-jdk_x64_windows_hotspot_11.0.25_9.zip",
+            "hash": "472d59e54f81e86c79192b7d9291d94f6e29d6d56ef7ed1d8aa74fcc7df548dc"
         }
     },
-    "extract_dir": "jdk-11.0.24+8",
+    "extract_dir": "jdk-11.0.25+9",
     "env_add_path": "bin",
     "env_set": {
         "JAVA_HOME": "$dir"
