@@ -1,5 +1,5 @@
 {
-    "version": "1.21.2701.0",
+    "version": "1.21.2911.0",
     "description": "The new Windows Terminal, and the original Windows console host - all in the same place!",
     "homepage": "https://github.com/microsoft/terminal",
     "license": "MIT",
@@ -9,11 +9,11 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/microsoft/terminal/releases/download/v1.21.2701.0/Microsoft.WindowsTerminal_1.21.2701.0_x64.zip",
-            "hash": "2f712872ed7f552763f3776ea7a823c9e7413cfd5ec65b88e95162e93acef899"
+            "url": "https://github.com/microsoft/terminal/releases/download/v1.21.2911.0/Microsoft.WindowsTerminal_1.21.2911.0_x64.zip",
+            "hash": "513ae47b4352fd0b28feff3d159a195cc620f8aa692ec4d06053276fdd654b28"
         }
     },
-    "extract_dir": "terminal-1.21.2701.0",
+    "extract_dir": "terminal-1.21.2911.0",
     "pre_install": [
         "# Remove this hint in 2023-12-01",
         "$settings_path = \"$env:LOCALAPPDATA\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\"",
