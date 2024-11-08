@@ -35,7 +35,7 @@
         "GO111MODULE": "on",
         "GOROOT": "$dir",
         "GOPATH": "$dir\\.go",
-        "GOPROXY": "https://mirrors.cloud.tencent.com/go/,direct"
+        "GOPROXY": "https://mirrors.aliyun.com/goproxy/,https://mirrors.tencent.com/go/,https://mirrors.huaweicloud.com/repository/goproxy/,https://repo.nju.edu.cn/go/,direct"
     },
     "persist": ".go",
     "checkver": {
