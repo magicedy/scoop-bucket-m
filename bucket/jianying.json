@@ -4,25 +4,12 @@
     "license": "Proprietary",
     "version": "6.8.0.12267",
     "url": "https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_6_8_0_12267_jianyingpro_0_creatortool.exe#/jianyingpro.7z",
-    "hash": "5c0d0e809d96493db1d999a0c1974b86275b61f1506ac086c6619f3ac3fbfb7e",
+    "hash": "169fa5548736d596258c4d8c8bc574d4c903a9c9e0f34d5154449c0d40bfc25b",
     "extract_dir": "JYPacket/6.8.0.12267",
     "shortcuts": [
         [
             "JianyingPro.exe",
             "剪映专业版"
         ]
-    ],
-    "checkver": {
-        "script": [
-            ". \"$pwd\\bin\\utils.ps1\"",
-            "$dl_info = get_installer_info 'ByteDance/JianyingPro'",
-            "\"ver:$($dl_info.PackageVersion);\"",
-            "\"x64:$($dl_info.x64_exe.InstallerUrl);\""
-        ],
-        "regex": "ver:(?<version>.+?); x64:(?<x64>.+?);"
-    },
-    "autoupdate": {
-        "url": "https://$matchPath/Jianying_$underscoreVersion_jianyingpro_0_creatortool.exe#/jianyingpro.7z",
-        "extract_dir": "JYPacket/$version"
-    }
+    ]
 }
