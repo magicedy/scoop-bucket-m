@@ -6,6 +6,7 @@
         "identifier": "Proprietary",
         "url": "https://www.cursor.com/terms-of-service"
     },
+    "notes": "Add Cursor as a context menu option by running: reg import \"$dir\\install-context.reg\"",
     "architecture": {
         "64bit": {
             "url": "https://download.todesktop.com/230313mzl4w4u92/Cursor%20Setup%200.45.14%20-%20Build%20250219jnihavxsz-x64.exe#/dl.7z",
