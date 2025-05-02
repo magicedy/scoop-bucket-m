@@ -2,13 +2,13 @@
     "architecture": {
         "64bit": {
             "hash": "md5:a55e9c1e6421c84a4bd8b4be41492f51",
-            "url": "https://repo.huaweicloud.com/python/3.10.11/python-3.10.11-amd64.exe#/setup.exe"
+            "url": "https://mirros.huaweicloud.com/python/3.10.11/python-3.10.11-amd64.exe#/setup.exe"
         }
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://repo.huaweicloud.com/python/$version/python-$version-amd64.exe#/setup.exe"
+                "url": "https://mirros.huaweicloud.com/python/$version/python-$version-amd64.exe#/setup.exe"
             }
         },
         "hash": {

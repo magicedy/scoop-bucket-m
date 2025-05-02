@@ -2,20 +2,20 @@
     "architecture": {
         "32bit": {
             "hash": "af19e5e2f03e715a822181f2cb7d4efef4eda13fa4a2db6da12e998e46f5cbf9",
-            "url": "https://repo.huaweicloud.com/python/3.11.9/python-3.11.9.exe#/setup.exe"
+            "url": "https://mirros.huaweicloud.com/python/3.11.9/python-3.11.9.exe#/setup.exe"
         },
         "64bit": {
             "hash": "5ee42c4eee1e6b4464bb23722f90b45303f79442df63083f05322f1785f5fdde",
-            "url": "https://repo.huaweicloud.com/python/3.11.9/python-3.11.9-amd64.exe#/setup.exe"
+            "url": "https://mirros.huaweicloud.com/python/3.11.9/python-3.11.9-amd64.exe#/setup.exe"
         }
     },
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://repo.huaweicloud.com/python/$version/python-$version.exe#/setup.exe"
+                "url": "https://mirros.huaweicloud.com/python/$version/python-$version.exe#/setup.exe"
             },
             "64bit": {
-                "url": "https://repo.huaweicloud.com/python/$version/python-$version-amd64.exe#/setup.exe"
+                "url": "https://mirros.huaweicloud.com/python/$version/python-$version-amd64.exe#/setup.exe"
             }
         },
         "hash": {
