@@ -57,13 +57,13 @@ Optional options:
         Show help.
 
 .Example
-    > pypi-mirror.ps1 -mirror tuna
-    > pypi-mirror.ps1 -clear
+    > pypi-mirror.ps1 --mirror tuna
+    > pypi-mirror.ps1 --clear
 '@
     exit 0
 }
 
-if ($mirror) {
+if ($mirror -and -not $clear) {
     if ($mirror -eq 'tuna') {
         $mirror_url = 'https://pypi.tuna.tsinghua.edu.cn/simple'
         $index_url = 'pypi.tuna.tsinghua.edu.cn'

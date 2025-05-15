@@ -22,4 +22,3 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Python\PythonCore\$py_version\PythonPath]
 @="$py_root\\Lib\\;$py_root\\DLLs\\"
-
