@@ -87,6 +87,9 @@
             "idle3"
         ]
     ],
+    "env_set": {
+        "PYTHONUTF8": "1"
+    },
     "env_add_path": [
         "Scripts",
         "."
