@@ -23,6 +23,7 @@
     ],
     "persist": "data",
     "env_set": {
+        "PYTHONUTF8": "1",
         "UV_PYTHON_INSTALL_MIRROR": "https://mirror.nju.edu.cn/github-release/indygreg/python-build-standalone",
         "UV_DEFAULT_INDEX": "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple",
         "UV_CACHE_DIR": "$dir\\data\\cache",
