@@ -12,7 +12,7 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/PowerShell/PowerShell/v7.5.1%20Release%20of%20PowerShell/PowerShell-7.5.1-win-x64.zip",
+            "url": "https://s3.jcloud.sjtu.edu.cn/899a892efef34b1b944a19981040f55b-oss01/github-release/PowerShell/PowerShell/releases/download/v7.5.1/PowerShell-7.5.1-win-x64.zip",
             "hash": "4d3028da81170f8d1cd226614582f0a95d3dd5592127cf87a09e3a3568e51a08"
         }
     },
@@ -50,7 +50,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/PowerShell/PowerShell/v$version%20Release%20of%20PowerShell/PowerShell-$version-win-x64.zip"
+                "url": "https://s3.jcloud.sjtu.edu.cn/899a892efef34b1b944a19981040f55b-oss01/github-release/PowerShell/PowerShell/releases/download/v$version/PowerShell-$version-win-x64.zip"
             }
         },
         "hash": {
