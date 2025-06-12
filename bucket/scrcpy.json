@@ -1,13 +1,13 @@
 {
-    "version": "3.2",
+    "version": "3.3",
     "description": "Display and control your Android device",
     "homepage": "https://github.com/Genymobile/scrcpy",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Genymobile/scrcpy/releases/download/v3.2/scrcpy-win64-v3.2.zip",
-            "hash": "eaa27133e0520979873ba57ad651560a4cc2618373bd05450b23a84d32beafd0",
-            "extract_dir": "scrcpy-win64-v3.2"
+            "url": "https://github.com/Genymobile/scrcpy/releases/download/v3.3/scrcpy-win64-v3.3.zip",
+            "hash": "a120cb4be7cde2891af38e83d2008173a0b6b6b5e344b2dfe668d0f892999933",
+            "extract_dir": "scrcpy-win64-v3.3"
         }
     },
     "bin": [
