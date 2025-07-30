@@ -5,7 +5,7 @@
     "license": "GPL-2.0-only WITH Classpath-exception-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/Adoptium/8/jre/x64/windows/OpenJDK8U-jre_x64_windows_hotspot_8u462b08.zip",
+            "url": "https://mirrors.ustc.edu.cn/adoptium/releases/temurin8-binaries/LatestRelease/OpenJDK8U-jre_x64_windows_hotspot_8u462b08.zip",
             "hash": "8d054a725082607bc20af5777aff867bf94bb3b78bb523aed2caf0dcf22b8d03"
         }
     },
@@ -28,7 +28,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://mirrors.tuna.tsinghua.edu.cn/Adoptium/8/jre/x64/windows/$matchName"
+                "url": "https://mirrors.ustc.edu.cn/adoptium/releases/temurin8-binaries/LatestRelease/$matchName"
             }
         },
         "hash": {
