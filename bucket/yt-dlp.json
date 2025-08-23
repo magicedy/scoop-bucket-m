@@ -1,5 +1,5 @@
 {
-    "version": "2025.08.20",
+    "version": "2025.08.22",
     "description": "A youtube-dl fork with additional features and fixes.",
     "homepage": "https://github.com/yt-dlp/yt-dlp",
     "license": "Unlicense",
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2025.08.20/yt-dlp.exe",
-            "hash": "sha512:ee9413f46b87cbfcb2467c2773f246d54a3bbbf27d6387a0c93e5ddbcecef5bc2cd36c0c2ea64d2447553b2a35376db7f6bc90af18fd76c0fd362e63906f1716"
+            "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2025.08.22/yt-dlp.exe",
+            "hash": "sha512:56f7a172dce475332d5eeb7b8aeecfd81a0da22f16674225ace762a1c6078b592a3e0581dd806e867192f0c470f7f3e24126d466ce6a953c8d3a04f8357ef993"
         }
     },
     "bin": "yt-dlp.exe",
