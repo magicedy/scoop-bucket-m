@@ -1,5 +1,5 @@
 {
-    "version": "2.6.0",
+    "version": "2.6.1",
     "description": "A Sudo for Windows",
     "homepage": "https://gerardog.github.io/gsudo",
     "license": "MIT",
@@ -10,9 +10,9 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gerardog/gsudo/releases/download/v2.6.0/gsudo.setup.x64.msi",
-            "hash": "5b1ef23cc51885d6a7f5c4d0577f287c3b0d8798d682cba7cfea96ffb743cc42",
-            "extract_dir": "PFiles64\\gsudo\\2.6.0"
+            "url": "https://github.com/gerardog/gsudo/releases/download/v2.6.1/gsudo.setup.x64.msi",
+            "hash": "a0049fd974f1a1e7e133ec31fbd420843e75d49459391ec343b6e7883bfcb895",
+            "extract_dir": "PFiles64\\gsudo\\2.6.1"
         }
     },
     "bin": [
