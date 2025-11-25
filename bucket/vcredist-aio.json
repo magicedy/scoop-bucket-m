@@ -19,7 +19,7 @@
         ]
     },
     "checkver": {
-        "url": "https://gitlab.com/abbodi1406/vcredist/-/tags?format=atom&sort=version_desc",
+        "url": "https://gitlab.com/stdout12/vcredist/-/tags?format=atom&sort=version_desc",
         "regex": "tags/v([\\d.]+)[\\s\\S]*?/uploads/([a-f0-9]+)/VisualCppRedist_AIO_x86_x64_\\d+\\.zip"
     },
     "autoupdate": {
