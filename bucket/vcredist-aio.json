@@ -20,7 +20,7 @@
     },
     "checkver": {
         "url": "https://gitlab.com/stdout12/vcredist/-/tags?format=atom&sort=version_desc",
-        "regex": "tags/v([\\d.]+)[\\s\\S]*?/uploads/([a-f0-9]+)/VisualCppRedist_AIO_x86_x64_\\d+\\.zip"
+        "regex": "tags/v([\\d.]+)[\\s\\S]*?/uploads/([a-f0-9]+)/VisualCppRedist_AIO_x86_x64_(\\d+)\\.zip"
     },
     "autoupdate": {
         "url": "https://gitlab.com/-/project/76069787/uploads/$match2/VisualCppRedist_AIO_x86_x64_$minorVersion.zip"
