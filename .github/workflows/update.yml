@@ -39,4 +39,5 @@ jobs:
           done < <(git diff --name-only)
           # finally push
           git push
-
+        env:
+          USERNAME: github-actions[bot]
