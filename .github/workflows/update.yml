@@ -17,8 +17,6 @@ jobs:
     steps:
       - name: ⬇ Checkout repo
         uses: actions/checkout@main
-        with:
-          token: ${{ secrets.PAT }}
       - name: ♻ Run autoupdate
         uses: foosel/scoop-checkver-action@main
         with:
@@ -29,7 +27,6 @@ jobs:
           # set git author
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-
           # create individual commit per updated manifest
           while read file; do
             if [[ $file == bucket/* ]] && [[ $file == *.json ]]; then
@@ -40,10 +37,6 @@ jobs:
               git commit -m "$message"
             fi
           done < <(git diff --name-only)
-
           # finally push
           git push
-        env:
-          REPO_KEY: ${{ secrets.PAT }}
-          USERNAME: github-actions[bot]
 
