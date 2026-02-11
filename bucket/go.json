@@ -5,7 +5,7 @@
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://mirror.nju.edu.cn/golang/go1.26.0.windows-amd64.zip",
+            "url": "https://go.dev/dl/go1.26.0.windows-amd64.zip",
             "hash": "9bbe0fc64236b2b51f6255c05c4232532b8ecc0e6d2e00950bd3021d8a4d07d4"
         }
     },
@@ -45,7 +45,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://mirror.nju.edu.cn/golang/go$version.windows-amd64.zip"
+                "url": "https://go.dev/dl/go$version.windows-amd64.zip"
             }
         },
         "hash": {
