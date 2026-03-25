@@ -1,5 +1,5 @@
 {
-    "version": "3.4.0.77112",
+    "version": "3.4.1.78303",
     "description": "Toolbox App. A control panel for all JetBrains tools.",
     "homepage": "https://www.jetbrains.com/toolbox/",
     "license": {
@@ -11,8 +11,8 @@
         "This could be changed inside settings menu.",
         "Add IDEA as a context menu option by running: reg import \"$dir\\install-context.reg\""
     ],
-    "url": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.4.0.77112.exe",
-    "hash": "166b55d16711493946b4bce01429ba1a12970481b362c39cbde4b395496ce4e2",
+    "url": "https://download.jetbrains.com/toolbox/jetbrains-toolbox-3.4.1.78303.exe",
+    "hash": "0caa677bb50f83db826c7b619d91c932f215f270bd4f7277a7b3aa6457f62c77",
     "pre_install": [
         "Expand-7zipArchive \"$dir\\jetbrains-toolbox-$version.exe\" \"$dir\\installer\" -Removal",
         "Expand-7zipArchive \"$dir\\installer\\.text\" \"$dir\"",
