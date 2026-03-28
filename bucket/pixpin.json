@@ -1,10 +1,10 @@
 {
-    "version": "2.3.8.0",
+    "version": "3.0.8.0",
     "description": "截图、录屏、OCR - 一款快速灵活的工具。",
     "homepage": "https://pixpin.cn/",
     "license": "Unknown",
     "url": "https://download.pixpin.cn/PixPin_cn_zh-cn_2.3.8.0.zip",
-    "hash": "9682a0e494b2abca8423d0ad86399f0ba2706d4902fda2801d556cffe24704e9",
+    "hash": "",
     "extract_dir": "PixPin",
     "shortcuts": [
         [
