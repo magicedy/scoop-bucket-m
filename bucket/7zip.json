@@ -15,7 +15,7 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://mirror.nju.edu.cn/github-release/ip7z/7zip/LatestRelease/7z2600-x64.msi",
+            "url": "https://mirror.nju.edu.cn/github-release/ip7z/7zip/LatestRelease/7z2601-x64.msi",
             "hash": "c388d0444871ca11b21237001af158cfddad7e137851795e5b65cee69b518495",
             "extract_dir": "Files\\7-Zip"
         }
