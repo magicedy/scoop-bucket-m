@@ -14,15 +14,15 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe",
+            "url": "https://rsproxy.cn/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe",
             "hash": "86478e53f769379d7f0ebfa7c9aa97cb76ca92233f79aa2cc0dbee2efaac73c7"
         },
         "32bit": {
-            "url": "https://static.rust-lang.org/rustup/dist/i686-pc-windows-msvc/rustup-init.exe",
+            "url": "https://rsproxy.cn/rustup/dist/i686-pc-windows-msvc/rustup-init.exe",
             "hash": "f574ea2bd6d798b6072b3a45e3053f3cabcc2cb48d6b4bd59b661b41d675b31a"
         },
         "arm64": {
-            "url": "https://static.rust-lang.org/rustup/dist/aarch64-pc-windows-msvc/rustup-init.exe",
+            "url": "https://rsproxy.cn/rustup/dist/aarch64-pc-windows-msvc/rustup-init.exe",
             "hash": "3af309e6c3062aa11df0e932954f69d13b734d8a431e593812f3ecd9ff9e6ef6"
         }
     },
@@ -30,24 +30,27 @@
         "script": [
             "[Environment]::SetEnvironmentVariable('CARGO_HOME', \"$persist_dir\\.cargo\", 'Process')",
             "[Environment]::SetEnvironmentVariable('RUSTUP_HOME', \"$persist_dir\\.rustup\", 'Process')",
-            "[Environment]::SetEnvironmentVariable('RUSTUP_UPDATE_ROOT', 'https://mirrors.tuna.tsinghua.edu.cn/rustup/rustup', 'Process')",
-            "[Environment]::SetEnvironmentVariable('RUSTUP_DIST_SERVER', 'https://mirrors.tuna.tsinghua.edu.cn/rustup', 'Process')",
+            "[Environment]::SetEnvironmentVariable('RUSTUP_DIST_SERVER', 'https://rsproxy.cn', 'Process')",
+            "[Environment]::SetEnvironmentVariable('RUSTUP_UPDATE_ROOT', 'https://rsproxy.cn/rustup', 'Process')",
             "Invoke-ExternalCommand -Path \"$dir\\rustup-init.exe\" -Args @('-y', '--no-modify-path') | Out-Null",
-            "# 配置 USTC crates.io 镜像源",
+            "# 配置 rsproxy crates.io 镜像源",
             "$cargoConfigPath = \"$persist_dir\\.cargo\\config.toml\"",
             "if (!(Test-Path $cargoConfigPath)) {",
             "    $cargoConfig = @'",
             "[source.crates-io]",
-            "replace-with = 'ustc'",
+            "replace-with = 'rsproxy-sparse'",
             "",
-            "[source.ustc]",
-            "registry = \"sparse+https://mirrors.ustc.edu.cn/crates.io-index/\"",
+            "[source.rsproxy]",
+            "registry = \"https://rsproxy.cn/crates.io-index\"",
             "",
-            "[registries.ustc]",
-            "index = \"sparse+https://mirrors.ustc.edu.cn/crates.io-index/\"",
+            "[source.rsproxy-sparse]",
+            "registry = \"sparse+https://rsproxy.cn/index/\"",
             "",
-            "[http]",
-            "check-revoke = false",
+            "[registries.rsproxy]",
+            "index = \"https://rsproxy.cn/crates.io-index\"",
+            "",
+            "[net]",
+            "git-fetch-with-cli = true",
             "'@",
             "    Set-Content -Path $cargoConfigPath -Value $cargoConfig -Encoding UTF8",
             "}"
@@ -57,8 +60,8 @@
     "env_set": {
         "CARGO_HOME": "$persist_dir\\.cargo",
         "RUSTUP_HOME": "$persist_dir\\.rustup",
-        "RUSTUP_UPDATE_ROOT": "https://mirrors.tuna.tsinghua.edu.cn/rustup/rustup",
-        "RUSTUP_DIST_SERVER": "https://mirrors.tuna.tsinghua.edu.cn/rustup"
+        "RUSTUP_UPDATE_ROOT": "https://rsproxy.cn/rustup",
+        "RUSTUP_DIST_SERVER": "https://rsproxy.cn"
     },
     "depends": "vsbuildtools2022",
     "persist": [
@@ -72,13 +75,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe"
+                "url": "https://rsproxy.cn/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe"
             },
             "32bit": {
-                "url": "https://static.rust-lang.org/rustup/dist/i686-pc-windows-msvc/rustup-init.exe"
+                "url": "https://rsproxy.cn/rustup/dist/i686-pc-windows-msvc/rustup-init.exe"
             },
             "arm64": {
-                "url": "https://static.rust-lang.org/rustup/dist/aarch64-pc-windows-msvc/rustup-init.exe"
+                "url": "https://rsproxy.cn/rustup/dist/aarch64-pc-windows-msvc/rustup-init.exe"
             }
         },
         "hash": {
