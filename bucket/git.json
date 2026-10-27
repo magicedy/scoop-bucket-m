@@ -1,5 +1,5 @@
 {
-    "version": "2.56.0.3",
+    "version": "2.56.0.4",
     "description": "Distributed version control system",
     "homepage": "https://gitforwindows.org",
     "license": "GPL-2.0-only",
@@ -12,8 +12,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://mirror.nju.edu.cn/github-release/git-for-windows/git/LatestRelease/PortableGit-2.56.0.3-64-bit.7z.exe#/dl.7z",
-            "hash": "4fc27b779829a36df77911e3f4dea09c66c790dd6c5f7dfa3b6a5479f1fe354f"
+            "url": "https://mirror.nju.edu.cn/github-release/git-for-windows/git/LatestRelease/PortableGit-2.56.0.4-64-bit.7z.exe#/dl.7z",
+            "hash": "b1f3e52216e2ed6882d1bebfd4d3fdf319bec40d2edbbf9fd26ec4fd3fce7ed1"
         }
     },
     "post_install": [
